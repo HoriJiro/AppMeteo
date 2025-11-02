@@ -1,0 +1,13 @@
+.w-300 {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.card-text h6 {
+    margin: 0;
+}
+
+.fs-icon{
+    font-size: 150px;
+}
