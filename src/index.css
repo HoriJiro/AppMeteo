@@ -1,13 +1,83 @@
+body {
+    min-width: 300px;
+    opacity: 1;
+    position: relative;
+}
+
+* {
+    transition: background-color 0.3s;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
 .w-300 {
     width: 300px;
     min-width: 300px;
     max-width: 300px;
 }
 
-.card-text h6 {
+.mw-300 {
+    min-width: 300px;
+}
+
+.w-250 {
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+h6 {
     margin: 0;
 }
 
 .fs-icon{
-    font-size: 150px;
+    font-size: 100px;
+}
+
+.fs-7{
+    font-size: 0.8rem;
+}
+
+.placeholder-white::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.spinner-container {
+    width: 268px;
+    height: 340px;
+}
+
+.fadeup {
+    animation-name: fadeup;
+    animation-duration: 0.5s;
+}
+
+.background-image img {
+    width: 100%;
+     height: 100%;
+     object-position: center;
+    object-fit: cover;
+}
+
+.background-image {
+    min-width: 300px;
+}
+
+@keyframes fadeup {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
